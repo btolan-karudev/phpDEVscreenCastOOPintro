@@ -2,7 +2,7 @@
 
 class Database{
     static private $pdo;
-    static public $operators = ['=', '<>', 'and', 'or', 'like'];
+    static public $operators = ['=', '<>', 'and', 'or', 'like', 'lol'];
     private $table;
     
     public static function connect(string $method)
